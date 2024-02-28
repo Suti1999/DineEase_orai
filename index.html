@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DineEase Showcase Website - Home Page</title>
+        <!-- bootstrap -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+            integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- sajat keszitesu fajlok -->
+        <link rel="stylesheet" href="dineease.css">
+        <script src="dineease.js"></script>
+    </head>
+<!----------------------MENU----------------------------------------------------------------------------->
+    <body>
+        <div class="container" id="sheet">
+            <header>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/Logovector.svg" alt="Bootstrap" width="auto" height="auto"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link activeria-current="page" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">About as</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        
+<!--------------------BEVEZETO-KERESO------------------------------------------------------------------->
+    <main>
+        <div class="row" id="HeroSection">
+            <div class="col-md-6 col-xs-12">
+                <div class="HeroSectionSzoveg">
+                    <h1>DineEase: Exceptional Dining Awaits.</h1>
+                    <p>Dive into culinary wonders with DineEase. We curate top-rated restaurants, each with distinct flavors and ambiance. From international dishes to traditional delights and gastronomic adventures, find your perfect spot with DineEase.</p>
+                    <button class="btn btn-primary"><img src="images/Search Iconvector.svg" alt="Kereses"> Explore restorants</button>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12" id="heroDineease">
+                <img src="images/DineEase.png" alt="Hero Section">
+            </div>            
+        </div>
+<!---------------------KARTYAK-------------------------------------------------------------------------->
+    <div class="container">
+        <div class="box"></div>
+            <div id="top3">
+                <h1>Featured Restaurants</h1>
+                <p>Discover Unforgettable Dining Destinations</p>
+            </div>
+            <div class="row" id="top3restorants">
+                <div class="card">
+                    <img src="images/Restaurant2.png" alt="Sarmale Bistro" title="Sarmale Bistro">
+                    <h1>Sarmale Bistro</h1>
+                    <p>Experience Romania's culinary heart at Sarmale Bistro. Savor classics with a modern touch in our intimate, authentic ambiance. Celebrate timeless tradition.</p>
+                    <a href="">View restaurant »</a>
+                </div>
+                <div class="card">
+                    <img src="images/Restaurant1.png" alt="Le Piața" title="La Piața">
+                    <h1>La Piața</h1>
+                    <p>Discover a fusion of Europe's flavors at La Piața, set in the heart of the city. Savor dishes from locally-sourced ingredients in our cozy bistro ambiance.</p>
+                    <a href="">View restaurant »</a>
+                </div>
+                <div class="card">
+                    <img src="images/Restaurant3.png" alt="Halász Fogadó" title="Halász Fogadó">
+                    <h1>Halász Fogadó</h1>
+                    <p>Immerse in Eastern European authenticity at Halász Fogadó. Relish traditional dishes amid an atmosphere rich in charm and history. Join us for a timeless culinary experience.</p>
+                    <a href="">View restaurant »</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!---------------------VELEMENY--------------------------------------------------------------------------->
+        <div id="testimonials"><h1>Delightful Experiences Shared by Our Guests</h1>
+            <div class="velemeny">
+                <p>Exquisite flavors, impeccable service, and a memorable ambiance – DineEase made our celebration truly special!</p>
+                <p class="alairas">Robert & Emily</p>
+            </div>
+            <div class="velemeny">
+                <p>DineEase guided us to hidden gems we never knew existed! We've become food adventurers, thanks to this platform.</p>
+                <p class="alairas">Lisa & Mark</p>
+                </div>
+            <div class="velemeny">
+                <p>With DineEase, we've uncovered culinary treasures right in our city. Every dining recommendation feels like an exclusive invitation to a world of flavors. We thought we knew our local dining scene, but DineEase introduced us to so much more.</p>
+                <p class="alairas">Emma & Jacob</p>
+            </div>
+        </div>
+        <div id="keresosav">    
+            <h1>Find Your Perfect Dining Spot</h1>
+            <h3>Search by Cuisine, Location, or Name</h3>
+        </div>
+    </main>       
+<!--------------------LABLEC------------------------------------------------------------------------------>
+    <footer class="container-fluid bg-black text-white">
+        <div class="container d-flex justify-content-between row mx-auto py-5">
+            <div class="col-6">
+                <img src="images/logomark.png" alt="Logomark">
+                <p>Privacy Policy</p>
+                <p>+36 30 123 4567 support@dineease.com</p>
+                <p>&COPY; 2024 - All rights reserved</p>
+            </div>
+            <div class="col-4"><p>Follow Us</p>
+                <p>
+                    <img src="images/Facebook Iconvector.svg" alt="Facbook">
+                    <img src="images/Instagram Iconvector.svg" alt="Instagram"> 
+                    <img src="images/Twitter Iconvector.svg" alt>
+                </p>
+            </div>
+        </div>
+    </footer>
+    </body>
+    
+</html>
